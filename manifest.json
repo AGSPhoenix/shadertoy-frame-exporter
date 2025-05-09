@@ -10,7 +10,7 @@
     "homepage_url": "https://github.com/tdhooper/shadertoy-frame-exporter",
     "content_scripts": [
         {
-            "matches": ["https://www.shadertoy.com/view/*"],
+            "matches": ["https://www.shadertoy.com/view/*", "https://www.shadertoy.com/new"],
             "js": [
                 "main.js",
                 "lib/FileSaver-2.0.4.min.js"
